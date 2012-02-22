@@ -1,0 +1,147 @@
+A 5
+B -7 
+X 9
+Y 23
+C 1
+
+8 A - B * C 3 * + T /
+
+Z 3
+W 5
+A 5 
+T 4
+
+Z A W - + T A * * Z -
+
+E 0
+A 10
+C -20
+D 30
+B -40
+Q 50
+
+A  B         + C D   E + * *
+
+X 67
+Y 23
+
+A B +
+
+A 6
+B 9
+C 5
+
+A B -
+
+A 6
+B 9
+C 5
+
+3 99 -
+
+B 22
+A 11
+
+     A  B    *
+
+A 2
+D 4
+E 6
+B 8
+
+A B / 
+
+A 2
+B 11
+C 2012
+
+A B + C * 
+
+A 2
+B 11
+C 2012
+
+A B - C - 
+
+A 2
+B 11
+C 2012
+
+A B C * -
+
+A 2
+B 11
+C 2012
+
+  C   A   B / /
+
+E 5
+A -6
+B -7
+C 8
+D 9
+X 10
+Y 11
+
+A B C D E + + + + 
+
+E 5
+A -6
+B -7
+C 8
+D 9
+X 10
+Y 11
+
+A B + C + D + E + 
+
+E 5
+A -6
+B -7
+C 8
+D 9
+X 10
+Y 11
+
+A B + A B - * C D * + 
+
+E 5
+A -6
+B -7
+C 8
+D 9
+X 10
+Y 11
+
+A X Y B C / + D + * -
+
+E 5
+A -6
+B -7
+C 8
+D 9
+X 10
+Y 11
+
+A X Y B + * C D - / +
+
+B 1999
+
+2012 B B B + - * 
+
+A 1
+B 2
+C 3
+D 4
+E 5
+
+D B C E A - + * +
+
+A 1
+B 2
+C 3
+D 4
+E 5
+
+D B + C E A - * +
+<EOF>
