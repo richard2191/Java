@@ -1,0 +1,18 @@
+// This last file is
+// just to show that
+/* lexical analyzer */
+is for identifying lexical
+/* conventions only;
+Not checking for the
+correct syntax of
+the program */
+
+x int 3 =
+; (void) != 45
+while print > else
+   main x, int double; y
+   == <= y return FALSE
+
+/* The code above is messed up,
+yet the lexical analyzer does not
+recognize any error */

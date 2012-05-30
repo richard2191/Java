@@ -1,0 +1,21 @@
+int convert_f(int x) {
+   return 9/5*(x+32);
+} // a function to convert to Fahrenheit
+
+double convert_c(double y) {
+   return ( y - 32 ) * 5 / 9;
+}
+
+void main() {
+
+   cout << "This is a temperature converter";
+   char a = 'b';
+   // C-- doesn't recognize quotation marks
+
+   int x = 00234; /* an integer with leading zeros */
+   double y = 65.1200; // floating number with trailing zeros
+
+   // calling the functions
+   convert_f(234);
+   convert_c(y);
+}

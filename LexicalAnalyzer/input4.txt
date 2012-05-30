@@ -1,0 +1,25 @@
+/* infintvoid is treated as an identifier,
+not 3 separate tokens */
+
+ifintvoid main() {
+   int x, y, z;
+   z = 3;
+   x = sUbTrAcT(z, 4);
+   y = 40;
+   while(y >= 0) {
+      y -= z;
+   }
+   int arr[] = {2, 3, 12, 99, 10};
+   int i = 0;
+   while(i<5){
+      System.out.println(arr[i]);
+      i++;
+   }
+}
+
+// keywords and identifiers are case-sensitive
+
+int sUbTrAcT(INT A, int B) {
+   if(A<B) RETURN B-A;
+   ELSE return A-B;
+}
