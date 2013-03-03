@@ -36,7 +36,7 @@ public class Scheduler
             int started = sum;
             sum += joblist.get(i).getCost();
             turnaround[i] = sum;
-            System.out.println(joblist.get(i).getName() + "\t\t" + started + "\t" + sum + "\t Completed " + joblist.get(i).getName() + " @ " + sum);
+            System.out.println(joblist.get(i).getName() + "\t\t" + started + "\t" + sum + "\t Completed " + joblist.get(i).getName() + " at " + sum);
         }
 
         printAverageTurnaroundTime(calculateAverage(turnaround, joblist));
@@ -49,8 +49,7 @@ public class Scheduler
     }
 
     private static void RR(List<Job> joblist, int quantum) {
-        //System.out.println(joblist);
-        int completed = 0;  // number of jobs that have been completed
+        int completed = 0;  // variable to store the # of completed jobs
         int sum = 0;
         int[] turnaround = new int[joblist.size()];
         Job currentJob;
@@ -66,7 +65,6 @@ public class Scheduler
                     if (afterDec <= 0) {
                         completed++;
                         sum += afterDec;
-                        //System.out.println("Completed " + currentJob.name + " at " + sum);
                         turnaround[i] = sum;
                         jobCompleted = true;
                     }
@@ -116,8 +114,6 @@ public class Scheduler
             joblist1 = parsefile(file1);
             joblist2 = parsefile(file2);
             joblist3 = parsefile(file3);
-            // need to create a new list because RR changes the cost of each job
-            // used for rr-5
             joblist4 = parsefile(file1);
             joblist5 = parsefile(file2);
             joblist6 = parsefile(file3);
